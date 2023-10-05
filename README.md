@@ -332,7 +332,7 @@ class Pet(db.Model):
     species = db.Column(db.String)
 ```
 
-However, SQLAlchemy (and therefore Flask-SQLAlchemy) let's us define many types
+However, SQLAlchemy (and therefore Flask-SQLAlchemy) lets us define many types
 of column constraints. For example, the `User` model below demonstrates some
 common constraints:
 
